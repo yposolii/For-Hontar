@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['isvoter']);
+unset($_SESSION['isadmin']);
+unset($_SESSION['error']);
+unset($_SESSION['errorm']);
+unset($_SESSION['islog']);
+header('Location:index.php');
+?>
